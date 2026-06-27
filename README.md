@@ -123,3 +123,20 @@ node scripts/start-local.js
 - 已保存截图证据：`E:\桌面\新建文件夹\wechat-shop-automation-rebuild\reports\double-click-visual-verification-20260627.png`。
 
 结论：已验证不是白屏，页面实际渲染出店铺看板。
+
+## 2026-06-27 功能探索文档
+
+已新增功能探索文档目录：
+
+`docs/function-exploration/`
+
+内容包括：
+
+- 项目资产盘点
+- 启动入口和运行链路
+- 功能地图
+- 页面到后端链路
+- 外部依赖和风险清单
+- 后续维护开发建议
+
+本次仅整理文档和风险边界，没有修改业务代码，也没有触发真实微信小店操作。

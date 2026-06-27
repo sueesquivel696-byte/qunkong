@@ -82,3 +82,10 @@
 - `renderer-debug.log` 记录 `bodyHtmlLength=115554`、`appHtmlLength=114894`。
 - 页面文本包含“多店铺状态看板、店铺管理、订单管理、商品管理、云商品库、广告推广、素材中心”等。
 - 截图证据：`reports/double-click-visual-verification-20260627.png`。
+
+## 2026-06-27 功能探索文档
+
+- 新增 `docs/function-exploration/` 文档集，记录当前项目资产、启动入口、功能地图、前后端链路、外部依赖风险和后续维护建议。
+- 明确当前主维护目录是 `wechat-shop-automation-rebuild`，当前运行产物是 `local-noauth-build`，前端仍是打包产物而非原始 Vue 源码。
+- 明确高风险功能包括商品批量下架、商品发布队列、补发订单、OpenAPI 凭据保存和删除类操作。
+- 本次没有修改业务代码，没有触发真实微信小店操作。
