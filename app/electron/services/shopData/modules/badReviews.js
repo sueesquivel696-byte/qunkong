@@ -1,0 +1,1 @@
+const{logModuleFailure:i}=require("../moduleDiagnostics.js");function o({getShopName:r,getBadReviewsForShop:a}){async function n(e){const c=r(e)||"";try{return await a(e,c)}catch(t){throw i("badReviews",e,null,t),t}}return{fetchShopBadReviews:n}}module.exports={createBadReviewsApi:o};

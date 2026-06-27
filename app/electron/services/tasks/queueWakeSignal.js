@@ -1,0 +1,1 @@
+function s(){const e=new Set;function a(){if(e.size){for(const n of e)n();e.clear()}}async function o(n=new Set){let r=null;const i=new Promise(t=>{r=t,e.add(t)});try{await Promise.race([...Array.from(n),i])}finally{r&&e.delete(r)}}return{wake:a,wait:o}}module.exports={createQueueWakeSignal:s};

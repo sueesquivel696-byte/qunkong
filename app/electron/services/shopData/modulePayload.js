@@ -1,0 +1,1 @@
+const a="__shopDataModulePayload";function e(t,o={}){return{[a]:!0,data:t,meta:o&&typeof o=="object"?o:{}}}function r(t){return t&&t[a]===!0&&Object.prototype.hasOwnProperty.call(t,"data")?{data:t.data,meta:t.meta&&typeof t.meta=="object"?t.meta:{}}:{data:t,meta:{}}}module.exports={MODULE_PAYLOAD_MARKER:a,createModulePayload:e,unwrapModulePayload:r};

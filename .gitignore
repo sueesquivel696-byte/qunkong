@@ -1,0 +1,43 @@
+﻿# Dependencies
+node_modules/
+
+# Build/runtime outputs
+runtime/
+dist/
+app/dist/
+reports/*.png
+*.zip
+*.log
+*.exe
+*.dll
+*.pak
+*.bin
+*.dat
+*.tmp
+.cache/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Secrets/local auth/user data
+.env
+.env.*
+app-auth.json
+local-auth-server.log
+**/app-auth.json
+**/*cookie*
+**/*Cookie*
+**/*token*
+**/*Token*
+**/*secret*
+**/*Secret*
+
+# Electron/cache artifacts
+out/
+build/
+dist-*/
+release/
+releases/

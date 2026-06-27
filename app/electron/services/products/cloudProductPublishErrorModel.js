@@ -1,0 +1,1 @@
+function n(e,t={}){return e==null?t:JSON.parse(JSON.stringify(e))}function s(e={},t="CLOUD_PRODUCT_PUBLISH_FAILED"){return!e||typeof e!="object"?{code:t,message:"\u53D1\u5E03\u5931\u8D25\u3002",details:{},retryable:!1}:{code:e.code||t,message:e.message||"\u53D1\u5E03\u5931\u8D25\u3002",details:n(e.details||{},{}),retryable:e.retryable===!0}}module.exports={normalizeError:s};
