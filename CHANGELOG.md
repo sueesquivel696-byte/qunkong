@@ -97,3 +97,12 @@
 - 新增 `docs/development/前端源码重建路线图.md`，明确当前 `app/dist` 是打包产物，后续应逐步重建 Vue 源码。
 - 新增 `docs/development/开发和提交规则.md`，固化主维护目录、禁止提交内容、验证命令、提交格式和推送规则。
 - 本次仅新增文档和规范，没有修改业务代码，没有触发真实微信小店操作。
+
+## 2026-06-27 ShopList 前端源码重建起步
+
+- 新增 Vite/Vue 渲染端源码入口，开始重建 `ShopList` 店铺列表页面。
+- 新增 `src/renderer/` 源码目录，包含 ShopList 页面、店铺分组筛选、卡片展示、表格展示、Electron API 封装和基础样式。
+- 新增 `vite.renderer.config.js` 和 `index.renderer.html`，构建输出到 `renderer-dist/`，不覆盖当前运行版 `app/dist`。
+- 新增 `docs/development/ShopList源码重建记录.md`，记录功能范围、暂不启用的高风险操作和验证方式。
+- 更新 `package.json` 和 `package-lock.json`，增加 `dev:renderer` / `build:renderer` 脚本及 Vue/Vite 依赖。
+- 本次高风险按钮默认禁用，没有触发真实微信小店操作。

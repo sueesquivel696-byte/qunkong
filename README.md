@@ -151,3 +151,28 @@ node scripts/start-local.js
 - `docs/development/开发和提交规则.md`
 
 后续涉及真实微信小店商品、订单、补发、凭据、删除和财务成本的功能，必须先参考高风险功能保护清单。后续提交默认遵守开发和提交规则：只提交本次相关源码、脚本、文档，不上传运行产物、日志、用户数据、备份和敏感信息。
+
+## 2026-06-27 ShopList 前端源码重建起步
+
+已新增独立的前端源码重建入口，第一版重建页面为 `ShopList` 店铺列表：
+
+- `src/renderer/views/ShopList.vue`
+- `src/renderer/composables/useShopList.js`
+- `src/renderer/components/ShopGroupBar.vue`
+- `src/renderer/components/ShopCard.vue`
+- `src/renderer/components/ShopTable.vue`
+- `src/renderer/api/electronApi.js`
+- `vite.renderer.config.js`
+- `index.renderer.html`
+
+本次没有覆盖当前运行版 `app/dist`，构建输出为 `renderer-dist/`，仅用于预览验证并已加入 `.gitignore`。
+
+验证命令：
+
+```powershell
+npm run build:renderer
+```
+
+详细记录见：
+
+`docs/development/ShopList源码重建记录.md`
