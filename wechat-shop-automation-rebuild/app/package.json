@@ -1,0 +1,8 @@
+{
+  "name": "wechat-shop-automation",
+  "version": "1.0.0",
+  "description": "微信小店多店铺自动化群控管理",
+  "author": "Electron App",
+  "main": "electron/main.js",
+  "dependencies": {}
+}

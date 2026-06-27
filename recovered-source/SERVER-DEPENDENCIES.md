@@ -1,0 +1,237 @@
+﻿# 服务器和外部接口依赖审计
+
+## 域名汇总
+
+- www.w3.org × 69
+- store.weixin.qq.com × 25
+- shop-promotion.qq.com × 7
+- element-plus.org × 7
+- ai.t8star.cn × 3
+- res.wx.qq.com × 2
+- jk.dianxiaolong.net × 1
+- api.weixin.qq.com × 1
+- apit.dajiaying.xyz × 1
+- local.invalid × 1
+- vuejs.org × 1
+
+## URL 明细
+
+- `http://local.invalid/`  —  dist\assets\index-Djj7DpyR.js:4
+- `http://www.w3.org/1998/Math/MathML`  —  dist\assets\vendor-vue-BfFIqYNr.js:17
+- `http://www.w3.org/1999/xlink`  —  dist\assets\vendor-element-8aErEPDG.js:8
+- `http://www.w3.org/1999/xlink`  —  dist\assets\vendor-vue-BfFIqYNr.js:17
+- `http://www.w3.org/2000/svg`  —  dist\assets\vendor-element-8aErEPDG.js:8
+- `http://www.w3.org/2000/svg`  —  dist\assets\vendor-element-D1zvbLMU.css:1
+- `http://www.w3.org/2000/svg`  —  dist\assets\vendor-element-D1zvbLMU.css:1
+- `http://www.w3.org/2000/svg`  —  dist\assets\vendor-element-D1zvbLMU.css:1
+- `http://www.w3.org/2000/svg`  —  dist\assets\vendor-element-D1zvbLMU.css:1
+- `http://www.w3.org/2000/svg`  —  dist\assets\vendor-element-D1zvbLMU.css:1
+- `http://www.w3.org/2000/svg`  —  dist\assets\vendor-element-D1zvbLMU.css:1
+- `http://www.w3.org/2000/svg`  —  dist\assets\vendor-icons-DB3l6LwX.js:1
+- `http://www.w3.org/2000/svg`  —  dist\assets\vendor-icons-DB3l6LwX.js:1
+- `http://www.w3.org/2000/svg`  —  dist\assets\vendor-icons-DB3l6LwX.js:1
+- `http://www.w3.org/2000/svg`  —  dist\assets\vendor-icons-DB3l6LwX.js:1
+- `http://www.w3.org/2000/svg`  —  dist\assets\vendor-icons-DB3l6LwX.js:1
+- `http://www.w3.org/2000/svg`  —  dist\assets\vendor-icons-DB3l6LwX.js:1
+- `http://www.w3.org/2000/svg`  —  dist\assets\vendor-icons-DB3l6LwX.js:1
+- `http://www.w3.org/2000/svg`  —  dist\assets\vendor-icons-DB3l6LwX.js:1
+- `http://www.w3.org/2000/svg`  —  dist\assets\vendor-icons-DB3l6LwX.js:1
+- `http://www.w3.org/2000/svg`  —  dist\assets\vendor-icons-DB3l6LwX.js:1
+- `http://www.w3.org/2000/svg`  —  dist\assets\vendor-icons-DB3l6LwX.js:1
+- `http://www.w3.org/2000/svg`  —  dist\assets\vendor-icons-DB3l6LwX.js:1
+- `http://www.w3.org/2000/svg`  —  dist\assets\vendor-icons-DB3l6LwX.js:1
+- `http://www.w3.org/2000/svg`  —  dist\assets\vendor-icons-DB3l6LwX.js:1
+- `http://www.w3.org/2000/svg`  —  dist\assets\vendor-icons-DB3l6LwX.js:1
+- `http://www.w3.org/2000/svg`  —  dist\assets\vendor-icons-DB3l6LwX.js:1
+- `http://www.w3.org/2000/svg`  —  dist\assets\vendor-icons-DB3l6LwX.js:1
+- `http://www.w3.org/2000/svg`  —  dist\assets\vendor-icons-DB3l6LwX.js:1
+- `http://www.w3.org/2000/svg`  —  dist\assets\vendor-icons-DB3l6LwX.js:1
+- `http://www.w3.org/2000/svg`  —  dist\assets\vendor-icons-DB3l6LwX.js:1
+- `http://www.w3.org/2000/svg`  —  dist\assets\vendor-icons-DB3l6LwX.js:1
+- `http://www.w3.org/2000/svg`  —  dist\assets\vendor-icons-DB3l6LwX.js:1
+- `http://www.w3.org/2000/svg`  —  dist\assets\vendor-icons-DB3l6LwX.js:1
+- `http://www.w3.org/2000/svg`  —  dist\assets\vendor-icons-DB3l6LwX.js:1
+- `http://www.w3.org/2000/svg`  —  dist\assets\vendor-icons-DB3l6LwX.js:1
+- `http://www.w3.org/2000/svg`  —  dist\assets\vendor-icons-DB3l6LwX.js:1
+- `http://www.w3.org/2000/svg`  —  dist\assets\vendor-icons-DB3l6LwX.js:1
+- `http://www.w3.org/2000/svg`  —  dist\assets\vendor-icons-DB3l6LwX.js:1
+- `http://www.w3.org/2000/svg`  —  dist\assets\vendor-icons-DB3l6LwX.js:1
+- `http://www.w3.org/2000/svg`  —  dist\assets\vendor-icons-DB3l6LwX.js:1
+- `http://www.w3.org/2000/svg`  —  dist\assets\vendor-icons-DB3l6LwX.js:1
+- `http://www.w3.org/2000/svg`  —  dist\assets\vendor-icons-DB3l6LwX.js:1
+- `http://www.w3.org/2000/svg`  —  dist\assets\vendor-icons-DB3l6LwX.js:1
+- `http://www.w3.org/2000/svg`  —  dist\assets\vendor-icons-DB3l6LwX.js:1
+- `http://www.w3.org/2000/svg`  —  dist\assets\vendor-icons-DB3l6LwX.js:1
+- `http://www.w3.org/2000/svg`  —  dist\assets\vendor-icons-DB3l6LwX.js:1
+- `http://www.w3.org/2000/svg`  —  dist\assets\vendor-icons-DB3l6LwX.js:1
+- `http://www.w3.org/2000/svg`  —  dist\assets\vendor-icons-DB3l6LwX.js:1
+- `http://www.w3.org/2000/svg`  —  dist\assets\vendor-icons-DB3l6LwX.js:1
+- `http://www.w3.org/2000/svg`  —  dist\assets\vendor-icons-DB3l6LwX.js:1
+- `http://www.w3.org/2000/svg`  —  dist\assets\vendor-icons-DB3l6LwX.js:1
+- `http://www.w3.org/2000/svg`  —  dist\assets\vendor-icons-DB3l6LwX.js:1
+- `http://www.w3.org/2000/svg`  —  dist\assets\vendor-icons-DB3l6LwX.js:1
+- `http://www.w3.org/2000/svg`  —  dist\assets\vendor-icons-DB3l6LwX.js:1
+- `http://www.w3.org/2000/svg`  —  dist\assets\vendor-icons-DB3l6LwX.js:1
+- `http://www.w3.org/2000/svg`  —  dist\assets\vendor-icons-DB3l6LwX.js:1
+- `http://www.w3.org/2000/svg`  —  dist\assets\vendor-icons-DB3l6LwX.js:1
+- `http://www.w3.org/2000/svg`  —  dist\assets\vendor-icons-DB3l6LwX.js:1
+- `http://www.w3.org/2000/svg`  —  dist\assets\vendor-icons-DB3l6LwX.js:1
+- `http://www.w3.org/2000/svg`  —  dist\assets\vendor-icons-DB3l6LwX.js:1
+- `http://www.w3.org/2000/svg`  —  dist\assets\vendor-icons-DB3l6LwX.js:1
+- `http://www.w3.org/2000/svg`  —  dist\assets\vendor-icons-DB3l6LwX.js:1
+- `http://www.w3.org/2000/svg`  —  dist\assets\vendor-icons-DB3l6LwX.js:1
+- `http://www.w3.org/2000/svg`  —  dist\assets\vendor-icons-DB3l6LwX.js:1
+- `http://www.w3.org/2000/svg`  —  dist\assets\vendor-icons-DB3l6LwX.js:1
+- `http://www.w3.org/2000/svg`  —  dist\assets\vendor-icons-DB3l6LwX.js:1
+- `http://www.w3.org/2000/svg`  —  dist\assets\vendor-icons-DB3l6LwX.js:1
+- `http://www.w3.org/2000/svg`  —  dist\assets\vendor-icons-DB3l6LwX.js:1
+- `http://www.w3.org/2000/svg`  —  dist\assets\vendor-vue-BfFIqYNr.js:17
+- `https://ai.t8star.cn/v1`  —  dist\assets\index-Djj7DpyR.js:4
+- `https://ai.t8star.cn/v1`  —  dist\assets\index-Djj7DpyR.js:4
+- `https://ai.t8star.cn/v1`  —  electron\services\ai\aiSplitConfigRepository.js:1
+- `https://api.weixin.qq.com`  —  electron\services\orders\officialApiClient.js:1
+- `https://apit.dajiaying.xyz`  —  electron\services\appAuthConfig.js:1
+- `https://element-plus.org/en-US/component/button.html#button-attributes`  —  dist\assets\vendor-element-8aErEPDG.js:8
+- `https://element-plus.org/en-US/component/checkbox.html`  —  dist\assets\vendor-element-8aErEPDG.js:8
+- `https://element-plus.org/en-US/component/checkbox.html`  —  dist\assets\vendor-element-8aErEPDG.js:8
+- `https://element-plus.org/en-US/component/checkbox.html`  —  dist\assets\vendor-element-8aErEPDG.js:8
+- `https://element-plus.org/en-US/component/dialog.html#slots`  —  dist\assets\vendor-element-8aErEPDG.js:8
+- `https://element-plus.org/en-US/component/radio.html`  —  dist\assets\vendor-element-8aErEPDG.js:8
+- `https://element-plus.org/zh-CN/component/pagination.html`  —  dist\assets\vendor-element-8aErEPDG.js:8
+- `https://jk.dianxiaolong.net/api/getExpressNo`  —  electron\services\orders\reshipExpressNumberService.js:1
+- `https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico`  —  dist\assets\index-Djj7DpyR.js:2
+- `https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico`  —  dist\assets\index-Djj7DpyR.js:2
+- `https://shop-promotion.qq.com/graphql?op=getAdMetricsAndTrendsByOrderId`  —  electron\services\adProducts\adProductDetailModel.js:1
+- `https://shop-promotion.qq.com/graphql?op=getHomePageSummaryMetrics`  —  electron\services\shopData\modules\ad.js:1
+- `https://shop-promotion.qq.com/graphql?op=getOrderDetailById`  —  electron\services\adProducts\adProductDetailModel.js:1
+- `https://shop-promotion.qq.com/graphql?op=getOrderList`  —  electron\services\adProducts\adProductListModel.js:1
+- `https://shop-promotion.qq.com/graphql?op=getOrderMaterialListByPromotionType`  —  electron\services\adProducts\adProductDetailModel.js:1
+- `https://shop-promotion.qq.com/graphql?op=getUserBalance`  —  electron\services\adSessionService.js:1
+- `https://shop-promotion.qq.com/graphql?op=getUserBalance`  —  electron\services\shopData\modules\ad.js:1
+- `https://store.weixin.qq.com`  —  electron\services\shopApi\requestBuilder.js:1
+- `https://store.weixin.qq.com/`  —  electron\ipc\windowHandlers.js:1
+- `https://store.weixin.qq.com/`  —  electron\services\shopApi\requestBuilder.js:1
+- `https://store.weixin.qq.com/`  —  electron\services\shopAuthWindowService.js:1
+- `https://store.weixin.qq.com/`  —  electron\services\shopBrowserManager.js:1
+- `https://store.weixin.qq.com/`  —  electron\services\shopLoginDiscoveryService.js:1
+- `https://store.weixin.qq.com/robots.txt`  —  electron\services\adSessionService.js:1
+- `https://store.weixin.qq.com/robots.txt`  —  electron\services\shopSessionRuntimeService.js:1
+- `https://store.weixin.qq.com/shop/goods/entry?productId=${encodeURIComponent(String(e||`  —  electron\services\products\productManagementService.js:1
+- `https://store.weixin.qq.com/shop/home`  —  electron\services\shopBatchLoginService.js:1
+- `https://store.weixin.qq.com/shop/home`  —  electron\services\shopSessionRuntimeService.js:1
+- `https://store.weixin.qq.com/shop/order/detail?orderid=${encodeURIComponent(u`  —  electron\services\orders\orderNormalizer.js:1
+- `https://store.weixin.qq.com/shop/promotion/`  —  electron\services\adSessionService.js:1
+- `https://store.weixin.qq.com/shop-faas/market/cgi/snapupV2/bGetSnapUpTaskListV2?lang=zh_CN&pageNum=1&pageSize=100`  —  electron\services\shopData\modules\snapUp.js:1
+- `https://store.weixin.qq.com/shop-faas/mmchannelstradedeposit/home/cgi/shopGetDepositState`  —  electron\services\shopData\modules\finance.js:1
+- `https://store.weixin.qq.com/shop-faas/mmchannelstradeevaluation/cgi/search`  —  electron\services\orderReviewService.js:1
+- `https://store.weixin.qq.com/shop-faas/mmchannelstradefunds/cgi/generalAccount/getGeneralAccountBalance`  —  electron\services\shopData\modules\finance.js:1
+- `https://store.weixin.qq.com/shop-faas/mmchannelstradehome/home/todo`  —  electron\services\shopData\modules\todo.js:1
+- `https://store.weixin.qq.com/shop-faas/mmchannelstradeorder/list/cgi/orderSearch`  —  electron\services\orders\reshipOrderService.js:1
+- `https://store.weixin.qq.com/shop-faas/mmchannelstradeorder/ship/cgi/compensationDelivery`  —  electron\services\orders\reshipOrderService.js:1
+- `https://store.weixin.qq.com/shop-faas/mmecnodelinercgi/cgi/liner_query/3/home-overview-shop-offline`  —  electron\services\shopData\modules\overview.js:1
+- `https://store.weixin.qq.com/shop-faas/mmecnodelinercgi/cgi/liner_query/3/home-overview-shop-realtime`  —  electron\services\shopData\modules\overview.js:1
+- `https://store.weixin.qq.com/shop-faas/mmecnodelogin/session/getShopSwitchList?lang=zh_CN`  —  electron\services\shopLoginDiscoveryService.js:1
+- `https://store.weixin.qq.com/shop-faas/mmecnodelogin/session/switchShop?lang=zh_CN`  —  electron\services\shopBatchLoginService.js:1
+- `https://store.weixin.qq.com/shop-faas/statistic/cgi/search`  —  electron\services\shopData\modules\scores.js:1
+- `https://vuejs.org/error-reference/#runtime-${n}`  —  dist\assets\vendor-vue-BfFIqYNr.js:13
+
+## 关键词命中
+
+- dist\assets\AdPromotionManagement-BihmW0ni.js:1 — `import{p as se,s as Ct,at as N,o as r,l as d,K as a,a0 as v,u as C,x as Dt,C as B,P as Pt,aF as St,F as x,U as Y,I as G,J as o,D as oe,G as F,B as _e,r as _,d as c}from"./vendor-vue-BfFIqYNr.js";import{E as V}from"./vendor-element-8aErEPDG.js";import{S as At,R...`
+- dist\assets\DataOverview-BJ0FeApY.js:1 — `import{_ as j,d as rt,a as B,h as it,s as X}from"./index-Djj7DpyR.js";import{at as U,o as A,l as R,K as h,I as O,J as T,F as Re,U as $e,a0 as m,D as ge,p as Y,au as ct,B as pe,C,P as ut,r as M,d as W,G as z,L as dt,u as b,x as q,s as je,g as vt,v as pt}from"./...`
+- dist\assets\dataOverviewAggregation-CPisCH2-.js:1 — `const A=["pay_gmv","pay_uv","pay_order_cnt","product_click_uv","pay_refund_gmv"],d=["cost","exposureCount","directPayNum","directPayAmount"],E=["today","sevenDays","thirtyDays"],N=["sevenDays","thirtyDays"],f=t=>Number(t)||0;function O(t,n){return t.getFullYea...`
+- dist\assets\FinanceManagement-BMOxzKU9.js:1 — `import{s as ze,p as me,at as I,o as m,l as f,K as t,a0 as s,C as r,I as p,u as D,x as he,D as c,P as O,aF as z,J as i,B as J,F as W,U as X,G as M,r as b,d as S}from"./vendor-vue-BfFIqYNr.js";import{E as _}from"./vendor-element-8aErEPDG.js";import{S as ce,a0 as...`
+- dist\assets\FinanceManagement-DkaXIUXB.css:1 — `.finance-page[data-v-65c99080]{--finance-filter-height: 38px;display:flex;flex-direction:column;gap:12px;min-width:0}.finance-actions[data-v-65c99080],.filter-bar[data-v-65c99080],.metric-card[data-v-65c99080],.finance-table-card[data-v-65c99080]{border:1px so...`
+- dist\assets\index-BOTSHY3J.css:1 — `.window-title-bar[data-v-3b69a031]{height:44px;flex:0 0 44px;display:flex;align-items:center;justify-content:space-between;background:linear-gradient(180deg,#fffffffa,#f6fafef5);border-bottom:1px solid #dfe8f2;box-shadow:0 1px #ffffffd1 inset;-webkit-app-regio...`
+- dist\assets\index-Djj7DpyR.js:1 — `const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./ShopList-Dmo9bfVs.js","./vendor-vue-BfFIqYNr.js","./vendor-icons-DB3l6LwX.js","./vendor-element-8aErEPDG.js","./vendor-element-D1zvbLMU.css","./useShopGroups-MB0VqWz8.js","./ShopList-rseKQEE3.css","./...`
+- dist\assets\index-Djj7DpyR.js:2 — `import{at as le,o as m,l as y,K as t,J as w,Q as ge,a0 as v,C as T,u as O,P as G,aF as Q,G as ie,r as $,d as z,D as ke,B as be,I as X,F as Z,U as ne,E as jt,v as Pn,g as Jn,aG as qe,s as Qt,p as Ua,x as zt,aH as Zn,H as Qe,aI as Gt,R as sa,af as Xn,Z as za,L a...`
+- dist\assets\index-Djj7DpyR.js:4 — ``),n=new URLSearchParams(window.location.search).get("cloudProductId")||"",l=$(!1),i=$(!1),u=$(!1),p=$(!1),_=$(!1),g=$(""),I=$(null),S=$({items:[]}),B=$({systemPrompt:"",sourceText:"",outputSchemaText:""}),C=$(null),q=$(""),J=$("info"),D=$(""),re=$(""),Ce=$(""...`
+- dist\assets\ProductCostManagement-CXBiMU4b.css:1 — `.product-page[data-v-e8cbab33]{display:flex;flex-direction:column;gap:16px;min-width:0}.product-toolbar[data-v-e8cbab33],.product-panel[data-v-e8cbab33]{border:1px solid #e4ebf2;border-radius:12px;background:#fffffff5;box-shadow:0 10px 26px #2f3e4e0e}.product-...`
+- dist\assets\ProductCostManagement-D7Ff2h00.js:1 — `import{s as nt,p as Ce,at as M,o as u,l as v,K as t,a0 as i,C as d,u as Y,P as F,aF as S,F as x,U as $,J as c,I as _,B as L,G as _e,D as ce,af as ot,r as m,d as B}from"./vendor-vue-BfFIqYNr.js";import{E as b,F as Fe}from"./vendor-element-8aErEPDG.js";import{S ...`
+- dist\assets\ReshipOrder-C5hftiAQ.js:1 — `import{p as re,s as be,at as R,au as we,o,l as i,K as a,a0 as n,C as u,F as T,U as O,u as D,B as F,P,aF as z,af as Ie,I as h,D as he,J as g,G as K,r as d,d as se}from"./vendor-vue-BfFIqYNr.js";import{E as p,F as Se}from"./vendor-element-8aErEPDG.js";import{S a...`
+- dist\assets\ShopList-Dmo9bfVs.js:1 — `import{at as O,o as x,l as z,K as e,F as Ie,U as Ee,D as de,J as w,a0 as v,C as D,u as s,I as R,p as Ue,B as X,af as Ke,Q as Se,G as Oe,d as M,r as U,s as ct,v as pt,x as be,P as qe,aF as We}from"./vendor-vue-BfFIqYNr.js";import{x as ft,q as nt,V as mt,P as vt...`
+- dist\assets\ShopList-Dmo9bfVs.js:3 — `登录后会自动恢复数据，不会丢失历史缓存。`,"重新登录",{confirmButtonText:"扫码登录",cancelButtonText:"取消",type:"info"}),I.isAvailable()&&(await I.reloginShop(n)?V.success("重新登录成功"):V.warning("登录已取消"))}catch{}};return ct(()=>{te(),ne(),me(),I.isAvailable()&&(G=I.onShopsUpdated(n=>{K.value=...`
+- dist\assets\ShopList-rseKQEE3.css:1 — `.shop-group-bar[data-v-66a3bb7d]{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:14px;padding:12px 14px;border:1px solid #e4ebf2;border-radius:10px;background:#fffffff5;box-shadow:0 8px 22px #2f3e4e0b}.group-tabs[data-v-66a...`
+- dist\assets\vendor-element-8aErEPDG.js:8 — `usage: app.provide(ZINDEX_INJECTION_KEY, { current: 0 })`),{initialZIndex:a,currentZIndex:o,nextZIndex:s}},cd=Symbol("emptyValuesContextKey"),yy="use-empty-values",wy=["",void 0,null],Cy=void 0,Os=Se({emptyValues:Array,valueOnClear:{type:ne([String,Number,Bool...`
+- dist\assets\vendor-element-8aErEPDG.js:20 — `* @license Modernizr 3.0.0pre (Custom Build) | MIT`
+- dist\assets\vendor-vue-BfFIqYNr.js:4 — `* @license MIT`
+- dist\assets\vendor-vue-BfFIqYNr.js:8 — `* @license MIT`
+- dist\assets\vendor-vue-BfFIqYNr.js:12 — `* @license MIT`
+- dist\assets\vendor-vue-BfFIqYNr.js:16 — `* @license MIT`
+- electron\preload.js:1 — `const{contextBridge:p,ipcRenderer:o}=require("electron"),r=process.env.ENABLE_DIAGNOSTICS==="1"||process.env.OVERVIEW_DIAGNOSTICS==="1";function i(e,t){if(typeof t!="function")return()=>{};const s=(d,...n)=>t(...n);return o.on(e,s),()=>{o.removeListener(e,s)}}...`
+- electron\controllers\appAuthManager.js:1 — `let i={};try{i=require("electron")}catch{i={}}const{loadAppAuthConfig:P}=require("../services/appAuthConfig.js"),{createAppAuthApiClient:V,AUTH_ERROR_CODES:u,createAuthError:c}=require("../services/appAuthApiClient.js"),{createAppAuthDeviceStore:x}=require(".....`
+- electron\controllers\financeManager.js:1 — `const{createOrderRepository:n}=require("../services/orders/orderRepository.js"),{createProductRepository:r}=require("../services/products/productCostRepository.js"),{createFinanceRepository:o}=require("../services/finance/financeRepository.js"),{createFinanceM...`
+- electron\controllers\productCostManager.js:1 — `const{createOrderRepository:t}=require("../services/orders/orderRepository.js"),{createProductRepository:o}=require("../services/products/productCostRepository.js"),{createProductManagementService:r}=require("../services/products/productCostManagementService.j...`
+- electron\controllers\shopManager.js:1 — `const{loadStoredShops:C,saveStoredShops:A}=require("../services/shopStore.js"),{saveCookiesToDisk:S,restoreCookiesFromDisk:u,clearPartitionStorage:x,clearPartitionCache:i,removeShopFiles:y}=require("../services/sessionService.js"),{createShopManagerState:w}=re...`
+- electron\ipc\appAuthHandlers.js:1 — `const{ipcMain:e}=require("electron");function a(t){e.handle("get-app-auth-status",()=>t.getStatus()),e.handle("login-app-auth",(i,n)=>t.login(n))}module.exports={registerAppAuthHandlers:a};`
+- electron\ipc\financeHandlers.js:1 — `const{ipcMain:t}=require("electron"),{getFinanceStats:o,getFinanceConfig:c,saveFinanceConfig:d,bindOrderSkuToProductSku:u,unbindOrderSkuCostBinding:s,exportFinanceRows:a}=require("../controllers/financeManager.js"),{guardTrustedAppSender:i}=require("./ipcSende...`
+- electron\ipc\productCostHandlers.js:1 — `const{ipcMain:n}=require("electron"),{getProducts:d,getUnlinkedCostSkuGroups:o,saveProduct:s,updateAllProductSharedCosts:c,applyCostSkuBindings:l,deleteProduct:i}=require("../controllers/productCostManager.js"),{guardTrustedAppSender:u}=require("./ipcSenderGua...`
+- electron\ipc\registerHandlers.js:1 — `const{registerShopHandlers:r}=require("./shopHandlers.js"),{registerWindowHandlers:e}=require("./windowHandlers.js"),{registerDataHandlers:s}=require("./dataHandlers.js"),{registerDiagnosticHandlers:t}=require("./diagnosticHandlers.js"),{registerOrderHandlers:...`
+- electron\ipc\shopHandlers.js:1 — `const{ipcMain:o}=require("electron"),{getShops:s,addShop:t,addMultipleShops:d,removeShop:p,reloginShop:a,checkLoginStatus:l}=require("../controllers/shopManager.js");function i(){o.handle("get-shops",()=>s()),o.handle("add-shop",()=>t()),o.handle("add-multiple...`
+- electron\ipc\windowHandlers.js:1 — `const{app:p,BrowserWindow:i,ipcMain:t}=require("electron"),{getShops:g,markShopAuthInvalid:f,markShopAuthValid:b,refreshShopAuthorization:m}=require("../controllers/shopManager.js"),{restoreCookiesFromDisk:S,clearPartitionCache:P}=require("../services/sessionS...`
+- electron\services\adSessionService.js:1 — `const{BrowserWindow:j}=require("electron"),{hasPromotionAuthFailure:ee,hasPromotionUnavailableText:V}=require("./shopApi/authRules.js"),{buildHeaders:te}=require("./shopApi/requestBuilder.js"),{ERROR_CODES:R}=require("./moduleResult.js"),{createStructuredLogge...`
+- electron\services\adSessionService.js:10 — ` `).catch(()=>"");return V(r)}function me({getShops:t,getContext:r,saveShops:n,restoreCookiesFromDisk:A,clearPartitionCache:w,onShopStateChange:_,validateAdHeaders:d=le,syncTimeoutMs:k=ne,noRequestTimeoutMs:T=re}){let h=!1,s=!1;const U=new Map,S=new Set,p=new ...`
+- electron\services\appAuthApiClient.js:1 — `const T=require("http"),d=require("https"),s={VERSION_MISMATCH:"VERSION_MISMATCH",INVALID_LICENSE:"INVALID_LICENSE",DEVICE_LIMIT_REACHED:"DEVICE_LIMIT_REACHED",SESSION_INVALID:"SESSION_INVALID",LICENSE_DISABLED:"LICENSE_DISABLED",SERVER_UNREACHABLE:"SERVER_UNR...`
+- electron\services\appAuthConfig.js:1 — `const a=require("fs"),n=require("path"),f="https://apit.dajiaying.xyz",T=8e3;function U(e){return String(e||"").trim().replace(/\/+$/,"")}function E(e,r=a){try{if(!r.existsSync(e))return{};const t=JSON.parse(r.readFileSync(e,"utf8"));return t&&typeof t=="objec...`
+- electron\services\orderReviewService.js:1 — `const l="https://store.weixin.qq.com/shop-faas/mmchannelstradeevaluation/cgi/search",A=2,b=3,r="\u672A\u77E5\u65F6\u95F4",d="\u65E0\u8BC4\u4EF7\u5185\u5BB9",f="\u533F\u540D\u4E70\u5BB6",E="\u672A\u77E5\u5546\u54C1",m="\u3001";function v(){return{orderId:"",pro...`
+- electron\services\shopApiClient.js:1 — `const{session:N}=require("electron"),{canRefreshMainAuthFromUrl:D,hasInvalidLoginCode:z,hasInvalidLoginText:Q,hasPromotionAuthFailure:x,hasPromotionUnavailableText:$,isPromotionApiUrl:T}=require("./shopApi/authRules.js"),{buildFetchUrl:J,buildHeaders:V,hasAdSe...`
+- electron\services\shopAuthWindowService.js:1 — `const{BrowserWindow:k,session:m}=require("electron");function q({getShop:f,stopShopContext:h,setupShopContext:y,saveShops:v,broadcastShopsUpdate:p,restoreCookiesFromDisk:w,saveCookiesToDisk:S,clearPartitionCache:b}){let l=!1;const c=new Set,d=new Set;function ...`
+- electron\services\shopBatchLoginService.js:1 — `const{BrowserWindow:G,session:x}=require("electron"),{createStructuredLogger:Z}=require("./structuredLogger.js"),K="https://store.weixin.qq.com/shop/home",Q="https://store.weixin.qq.com/shop-faas/mmecnodelogin/session/switchShop?lang=zh_CN",X=2e3,ee=2e4,te=500...`
+- electron\services\shopBatchLoginService.js:33 — ` `,null)}catch(n){l.warn("switch-script-failed",{ok:!1,error:n,details:{switchAppId:o}})}}function Se(e,t,o,n=null,r=null){if(!y(e))return Promise.resolve({ok:!1,errorCode:"WINDOW_UNAVAILABLE"});const I=Date.now();return new Promise(w=>{let p=!1,s=null,S=null,...`
+- electron\services\shopBatchLoginService.js:38 — ` `,""),o=await N(e,"JSON.stringify(window.localStorage)","{}")}catch{}return{bizMagic:t,lsData:o}}function me(e,t,o,n,r,I){return{id:t,realShopId:t,switchAppId:o,idSource:e.idSource||"",name:e.name||t,partition:n,ready:!0,authInvalidReason:"",authInvalidAt:"",...`
+- electron\services\shopBrowserManager.js:1 — `const{BrowserWindow:Ue,BrowserView:Be,shell:Le,Menu:Pe,dialog:qe,clipboard:De}=require("electron"),L=require("path"),{pathToFileURL:Fe}=require("url"),{createProductSplitImageFileService:Ge}=require("./products/productSplitImageFileService.js"),w="https://stor...`
+- electron\services\shopBrowserManager.js:54 — ` `}function Ke({BrowserWindowImpl:o=Ue,BrowserViewImpl:a=Be,MenuImpl:s=Pe,dialogImpl:m=qe,clipboardImpl:p=De,shellImpl:ne=Le,createImageFileService:re=Ge,getShops:q,restoreCookiesFromDisk:D,clearPartitionCache:F,markShopAuthInvalid:G,markShopAuthValid:H,refres...`
+- electron\services\shopBrowserManager.js:69 — ` const loginRequired = text.includes('\\u626b\\u7801\\u8fdb\\u5165\\u6211\\u7684\\u5c0f\\u5e97') ||`
+- electron\services\shopBrowserManager.js:102 — ` if (loginRequired) {`
+- electron\services\shopBrowserManager.js:106 — ` loginRequired: true,`
+- electron\services\shopBrowserManager.js:107 — ` reason: 'login-required',`
+- electron\services\shopBrowserManager.js:123 — ` `}async function ve(e){try{const t=await e.view.webContents.executeJavaScript(Se());return t&&typeof t=="object"?t:{ready:!1,rawShell:!1,reason:"invalid-health-result"}}catch{return{ready:!1,rawShell:!1,reason:"health-check-failed"}}}async function K(e,t){if(...`
+- electron\services\shopLoginDiscoveryService.js:1 — `const{BrowserWindow:g,session:b}=require("electron"),{collectShopIdentities:m,collectShopIdentitiesFromResponseBody:p,getSelectableShopIdentities:y,mergeShopIdentities:h}=require("./shopIdentityService.js"),S="https://store.weixin.qq.com/",R="https://store.wei...`
+- electron\services\shopLoginDiscoveryService.js:6 — ` `)}catch{}}async function z(e,t,n){if(t.bizMagic)try{const i=b.fromPartition(e),s=`${R}${t.token?"&token="+t.token:""}`,o=await(await i.fetch(s,{headers:{biz_magic:t.bizMagic}})).text(),c=JSON.parse(o);h(n,m(c))}catch(i){console.error("Fallback raw fetch fail...`
+- electron\services\shopManagerState.js:1 — `function w(t,r={}){return!!(r.headers&&Object.keys(r.headers).length>0||t.headers&&Object.keys(t.headers).length>0||r.cookies||t.cookies||r.token||t.token)}function x(t){return Object.prototype.hasOwnProperty.call(t||{},"ready")}function C(t){return x(t)?!!t.r...`
+- electron\services\shopSessionRuntimeService.js:1 — `const{BrowserWindow:M}=require("electron"),{createStructuredLogger:P}=require("./structuredLogger.js"),p="https://store.weixin.qq.com/shop/home",F="https://store.weixin.qq.com/robots.txt",H=15*60*1e3,W=5e3,z=45e3,v=P({scope:"shop-session-runtime",consoleEnable...`
+- electron\services\shopSessionRuntimeService.js:6 — ` `}function K(n,u){try{const c=JSON.parse(n)?.data?.[0]?.items;if(!c)return null;const q=[u.id,u.realShopId,u.switchAppId].filter(Boolean);for(let d=0;d<c.length-1;d++){const m=c[d].value;if(typeof m=="string"&&q.includes(m))return c[d+1].value}}catch{}return ...`
+- electron\services\shopStore.js:1 — `const u=require("fs"),{getShopsIndexPath:i,getShopSessionPath:d}=require("./shopPaths.js"),{readJsonFile:r,writeJsonFileAtomic:o}=require("./jsonFileStore.js");function c(a){const e={id:a.id,realShopId:a.realShopId||a.id,switchAppId:a.switchAppId||a.id,idSourc...`
+- electron\services\adProducts\adProductDetailModel.js:1 — `const{AD_PRODUCT_SCHEMA_VERSION:y,createAdProductDateRange:c,toNumber:u}=require("./adProductListModel.js"),_=1,T="https://shop-promotion.qq.com/graphql?op=getOrderDetailById",g="https://shop-promotion.qq.com/graphql?op=getAdMetricsAndTrendsByOrderId",f="https...`
+- electron\services\adProducts\adProductDetailModel.js:101 — ` cost {`
+- electron\services\adProducts\adProductDetailModel.js:117 — ` directDealCost {`
+- electron\services\adProducts\adProductDetailModel.js:141 — ` conversionCost {`
+- electron\services\adProducts\adProductDetailModel.js:171 — ` liveTargetConversionCost {`
+- electron\services\adProducts\adProductDetailModel.js:191 — ` cost {`
+- electron\services\adProducts\adProductDetailModel.js:207 — ` conversionCost {`
+- electron\services\adProducts\adProductDetailModel.js:252 — ` cost {`
+- electron\services\adProducts\adProductDetailModel.js:310 — ``;function s(e){return Array.isArray(e)?e:[]}function i(e){return e==null?"":String(e)}function S(e){if(!e||typeof e!="object")return i(e);const a=e.prefix||"";return e.displayValueWithSeparator!==void 0?`${a}${e.displayValueWithSeparator}`:e.displayValue!==vo...`
+- electron\services\adProducts\adProductDetailService.js:1 — `const{ERROR_CODES:S}=require("../moduleResult.js"),{createTraceContext:C}=require("../traceContext.js"),{AD_PRODUCT_DETAIL_MATERIALS_URL:T,AD_PRODUCT_DETAIL_METRICS_URL:M,AD_PRODUCT_DETAIL_SCHEMA_VERSION:m,AD_PRODUCT_DETAIL_URL:L,createAdProductDetailDateRange...`
+- electron\services\adProducts\adProductListModel.js:1 — `const v=1,_="https://shop-promotion.qq.com/graphql?op=getOrderList",s={TODAY:"today",YESTERDAY:"yesterday",SEVEN_DAYS:"sevenDays",THIRTY_DAYS:"thirtyDays"},D={updatedAt:"UPDATE_TIME",updateTime:"UPDATE_TIME",createdAt:"CREATE_TIME",createTime:"CREATE_TIME"},b=...`
+- electron\services\adProducts\adProductListModel.js:89 — ``;function p(t){return Array.isArray(t)?t:[]}function i(t,r=0){if(t==null||t==="")return r;const e=typeof t=="string"?t.replace(/[￥¥,\s]/g,""):t,a=Number(e);return Number.isFinite(a)?a:r}function A(t=[]){const r={};for(const e of p(t)){const a=e?.tabType||e?.s...`
+- electron\services\adProducts\adProductListService.js:1 — `const{createShopDataRefreshQueue:ae}=require("../shopData/refreshQueue.js"),{createTraceContext:re}=require("../traceContext.js"),{AD_PRODUCT_ORDER_LIST_URL:G,AD_PRODUCT_SCHEMA_VERSION:k,createAdProductDateRange:oe,createAdProductListPayload:Q,normalizeAdProdu...`
+- electron\services\ai\aiRelayClient.js:1 — `const{DEFAULT_AI_SPLIT_CONFIG:H}=require("./aiSplitConfigRepository.js"),{Blob:V}=require("buffer"),J=6e5;function M(e,t={}){return{ok:!0,data:e,error:null,raw:t.raw||null,meta:t.meta||{}}}function m(e,t,a={},s=!1,y=null){return{ok:!1,data:null,error:{code:e,m...`
+- electron\services\ai\aiRelayClient.js:2 — ``).trim()}function v(e=""){const t=u(e).trim();return t.startsWith("```")?t.replace(/^```(?:json)?\s*/i,"").replace(/\s*```$/i,"").trim():t}function Q(e=""){const t=u(e),a=t.indexOf("{");if(a<0)return"";let s=0,y=!1,R=!1;for(let b=a;b<t.length;b+=1){const E=t[...`
+- electron\services\ai\aiSplitConfigRepository.js:5 — ``),I={baseUrl:l,textBaseUrl:l,imageBaseUrl:l,textModel:T,imageModel:_,timeoutMs:E,extraHeaders:{},textExtraHeaders:{},imageExtraHeaders:{},systemPrompt:A,userPrompt:U,riskRules:"",productInfoTemplate:S};function V(){const{app:e}=require("electron");return J.jo...`
+- electron\services\compass\compassService.js:1 — `const{createTraceContext:De}=require("../traceContext.js"),{createStructuredLogger:Pe}=require("../structuredLogger.js"),{createOfficialApiClient:Ge}=require("../orders/officialApiClient.js"),{createCompassRepository:Ae}=require("./compassRepository.js"),we=24...`
+- electron\services\finance\financeManagementService.js:1 — `const{createOrderRepository:Z}=require("../orders/orderRepository.js"),{createProductRepository:q}=require("../products/productCostRepository.js"),{getProfitPolicy:ee}=require("../orders/orderStatusPolicy.js"),{csvCell:te}=require("../csvCell.js"),{createFinan...`
+- electron\services\finance\financeManagementService.js:2 — ``),total:r.rows.length})}return{getFinanceStats:a,getFinanceConfig:s,saveFinanceConfig:i,bindOrderSkuToProductSku:l,unbindOrderSkuCostBinding:p,exportFinanceRows:F}}module.exports={createFinanceManagementService:Fe,calculateOrderFinance:X};`
+- electron\services\orders\officialApiClient.js:1 — `const se="https://api.weixin.qq.com",E={40013:"AppID \u4E0D\u6B63\u786E\uFF0C\u8BF7\u68C0\u67E5\u662F\u5426\u586B\u9519\u6216\u5305\u542B\u591A\u4F59\u7A7A\u683C\u3002",40001:"access_token \u65E0\u6548\uFF0C\u8BF7\u91CD\u65B0\u6D4B\u8BD5\u5E76\u4FDD\u5B58\u5BC...`
+- electron\services\orders\orderManagementService.js:1 — `const b=require("fs"),J=require("path"),{createOrderRepository:Q}=require("./orderRepository.js"),{normalizeOrderDetail:W}=require("./orderNormalizer.js"),{createOfficialApiClient:Z}=require("./officialApiClient.js"),{createTraceContext:ee}=require("../traceCo...`
+- electron\services\orders\orderNormalizer.js:1 — `const b={10:"\u5F85\u4ED8\u6B3E",12:"\u793C\u7269\u5F85\u6536\u4E0B",13:"\u4E00\u8D77\u4E70\u5F85\u6210\u56E2",20:"\u5F85\u53D1\u8D27",21:"\u90E8\u5206\u53D1\u8D27",30:"\u5F85\u6536\u8D27",100:"\u5DF2\u5B8C\u6210",200:"\u552E\u540E\u53D6\u6D88",250:"\u5DF2\u53...`
+- electron\services\orders\reshipExpressNumberService.js:1 — `const _=require("crypto"),x="https://jk.dianxiaolong.net/api/getExpressNo",w="reship-express-number",I=new Map([["\u5317\u4EAC","\u5317\u4EAC\u5E02"],["\u5317\u4EAC\u5E02","\u5317\u4EAC\u5E02"],["\u4E0A\u6D77","\u4E0A\u6D77\u5E02"],["\u4E0A\u6D77\u5E02","\u4E0...`
+- electron\services\orders\reshipOrderService.js:1 — `const{DELIVERY_COMPANIES:D}=require("../../../shared/deliveryCompanies.cjs"),v="https://store.weixin.qq.com/shop-faas/mmchannelstradeorder/list/cgi/orderSearch",T="https://store.weixin.qq.com/shop-faas/mmchannelstradeorder/ship/cgi/compensationDelivery",w="res...`
+- electron\services\products\productCostManagementService.js:1 — `const L=require("crypto"),{createOrderRepository:ee}=require("../orders/orderRepository.js"),{createProductRepository:te}=require("./productCostRepository.js"),O=24*60*60*1e3,ne=new Set(["updatedAt","name","todaySales","yesterdaySales","sevenDaysSales","thirty...`
+- electron\services\products\productDraftPublishService.js:1 — `const{createTraceContext:te}=require("../traceContext.js"),{preflightProductMediaForTargetShop:re,resolveProductMediaForTargetShop:se}=require("./productMediaUploadService.js"),{applyPublishOptions:ae,applySavedPublishSettings:oe,buildDraftAddBody:K,validateDr...`
+- electron\services\products\productImageUploadModel.js:1 — `const{asString:y,fail:c,normalizeExternalError:O,ok:p}=require("./productMediaSourceModel.js"),M=10*1024*1024,I=512*1024,L=[1600,1360,1120,960,800,640,480,320],P=[82,76,70,64,58,52,46,40];function A(t,e){return t[e]|t[e+1]<<8|t[e+2]<<16}function D(t){const e=t...`
+- electron\services\products\productManagementService.js:1 — `const{createOfficialApiClient:rt}=require("../orders/officialApiClient.js"),{createTraceContext:st}=require("../traceContext.js"),{PRODUCT_SCHEMA_VERSION:U,createEmptyProductIndex:ct,createProductRepository:ot}=require("./productRepository.js"),at=5*60*1e3,ut=...`
+- electron\services\products\productMediaUploadService.js:1 — `const{asArray:U,asString:k,downloadMediaBuffer:I,fail:p,inspectLocalMediaFile:V,isBlobUrl:L,isDataUrl:_,isHttpUrl:T,isLocalFileReference:h,isWechatProductImageUrl:q,mediaHash:M,normalizeExternalError:N,ok:c,parseDataUrl:D,readLocalMediaBuffer:v,shouldRefreshVi...`
+- electron\services\products\productSplitTaskService.js:1 — `const tt=require("crypto"),{createTraceContext:Kt}=require("../traceContext.js"),{createTaskRepository:Lt}=require("../tasks/taskRepository.js"),{delay:Mt,runThrottledPool:et}=require("../tasks/throttledPool.js"),{createConcurrentTaskQueue:Gt}=require("../task...`
+- electron\services\products\productVideoUploadModel.js:1 — `const{asString:D,fail:i,normalizeExternalError:I,ok:w,shouldRefreshVideoDownload:S}=require("./productMediaSourceModel.js"),N=162,f=500*1024*1024,P=1100*1024,V=10020347,O=[1500,3e3,5e3,8e3,12e3];function A(e){const a=e?.details||{};return Number(a.errcode)===V...`
+- electron\services\shopApi\authRules.js:1 — `function r(o){return String(o||"").includes("shop-promotion.qq.com")}function i(o){const n=String(o||"").toLowerCase();return n.includes("not login")||n.includes("login expired")||n.includes("session expired")||n.includes("unauthorized")||n.includes("unauthent...`
+- electron\services\shopApi\errors.js:1 — `const{ERROR_CODES:o}=require("../moduleResult.js");function E(r){try{const e=new URL(r);return e.searchParams.delete("token"),`${e.origin}${e.pathname}${e.search}`}catch{return String(r||"")}}function a(r,e,{shopId:t="",url:n="",status:u=null,details:c={},retr...`
+- electron\services\shopApi\requestBuilder.js:1 — `const{isPromotionApiUrl:t}=require("./authRules.js");function f(n,o){return!o||t(n)?n:n.includes("?")?`${n}&token=${o}`:`${n}?token=${o}`}function r(n,o){if(!n)return"";const s=n[o];if(s)return s;const e=o.toLowerCase(),i=Object.keys(n).find(c=>c.toLowerCase()...`
+- electron\services\shopData\cacheRepository.js:1 — `function _(){return{today:{},sevenDays:{},thirtyDays:{}}}const l=1;function b({loadShopCache:o,loadShopCacheForId:c,saveShopCache:n}){let r={};function m(){r=o()}function s(e){return r[e]||(r[e]=c(e)||{}),r[e]}function d(e,t){return s(e)[t]}function i(e,t){ret...`
+- electron\services\shopData\moduleDiagnostics.js:1 — `const{appendDiagnosticLog:l,isDiagnosticLoggingEnabled:E}=require("../diagnosticLogger.js"),{createStructuredLogger:f}=require("../structuredLogger.js"),g=f({scope:"shop-data-module",sink:l,consoleEnabled:E()}),i={AUTH_NOT_READY:"auth_not_ready",AUTH_REJECTED:...`
+- electron\services\shopData\moduleRefreshService.js:1 — `const{AUTH_STATES:A,ERROR_CODES:u,moduleSuccess:C,moduleFailure:m}=require("../moduleResult.js"),{validateModuleData:B,isCachedModuleDataUsable:R}=require("./moduleValidators.js"),{createShopDataRefreshQueue:Z}=require("./refreshQueue.js"),{createTraceContext:...`
+- electron\services\shopData\modules\ad.js:1 — `const{logEmptyResponse:M,logModuleFailure:O}=require("../moduleDiagnostics.js"),{createEmptyResponseError:T}=require("../moduleErrors.js"),{ERROR_CODES:b}=require("../../moduleResult.js"),{createModulePayload:U}=require("../modulePayload.js"),{getCachedPeriod:...`
+- electron\services\shopData\modules\finance.js:1 — `const{yuanFromFen:t,getResponseBody:l,hasAnyNumber:p}=require("../utils.js"),{logEmptyResponse:m,logModuleFailure:d}=require("../moduleDiagnostics.js"),{createEmptyResponseError:f}=require("../moduleErrors.js"),{ERROR_CODES:q}=require("../../moduleResult.js");...`
+- electron\services\shopData\modules\overview.js:1 — `const{logEmptyResponse:b,logModuleFailure:j}=require("../moduleDiagnostics.js"),{createEmptyResponseError:k}=require("../moduleErrors.js"),{ERROR_CODES:p}=require("../../moduleResult.js"),{createModulePayload:T}=require("../modulePayload.js"),{getCachedPeriod:...`
+- electron\services\shopData\modules\scores.js:1 — `const{readNumber:c,getResponseBody:l,hasAnyNumber:p}=require("../utils.js"),{logModuleFailure:y}=require("../moduleDiagnostics.js"),{createEmptyResponseError:d}=require("../moduleErrors.js"),{ERROR_CODES:h}=require("../../moduleResult.js");function E({callShop...`
+- electron\services\shopData\modules\snapUp.js:1 — `const{logModuleFailure:e}=require("../moduleDiagnostics.js"),t="https://store.weixin.qq.com/shop-faas/market/cgi/snapupV2/bGetSnapUpTaskListV2?lang=zh_CN&pageNum=1&pageSize=100";function r({callShopAPI:p}){async function s(n){try{const a=await p(n,t,null,"GET"...`
+- electron\services\shopData\modules\todo.js:1 — `const{logEmptyResponse:n,logModuleFailure:i}=require("../moduleDiagnostics.js"),{createEmptyResponseError:c}=require("../moduleErrors.js"),{ERROR_CODES:l}=require("../../moduleResult.js");function y(e){return Array.isArray(e?.list)?e.list:Array.isArray(e?.data...`

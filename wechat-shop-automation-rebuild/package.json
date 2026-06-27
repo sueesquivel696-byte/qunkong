@@ -1,0 +1,24 @@
+﻿{
+    "name":  "wechat-shop-automation-rebuild",
+    "version":  "1.0.0-local",
+    "private":  true,
+    "description":  "微信小店多店铺群控本地重建工程（无授权、本地自用）",
+    "main":  "app/electron/main.js",
+    "notes":  {
+                  "status":  "Recovered from Electron app.asar. Frontend is currently built dist assets; source Vue files need gradual reconstruction.",
+                  "auth":  "Legacy authorization removed. Local company use only."
+              },
+    "scripts":  {
+                    "start:local":  "node scripts/start-local.js",
+                    "check:blocked-domains":  "node scripts/check-blocked-domains.js",
+                    "format":  "prettier --write \"app/**/*.js\" \"*.md\""
+                },
+    "dependencies":  {
+
+                     },
+    "devDependencies":  {
+                            "electron":  "29.4.6",
+                            "electron-builder":  "^24.13.3",
+                            "prettier":  "^3.3.3"
+                        }
+}
