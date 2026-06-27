@@ -1,13 +1,17 @@
-@echo off
+锘緻echo off
 chcp 65001 >nul
-set "PATH=E:\桌面\新建文件夹\tools\node-v20.19.5-win-x64;%PATH%"
-cd /d "E:\桌面\新建文件夹\wechat-shop-automation-rebuild"
+set "PATH=E:\妗岄潰\鏂板缓鏂囦欢澶筡tools\MinGit-2.54.0-64-bit\cmd;E:\妗岄潰\鏂板缓鏂囦欢澶筡tools\node-v20.19.5-win-x64;%PATH%"
+cd /d "E:\妗岄潰\鏂板缓鏂囦欢澶筡wechat-shop-automation-rebuild"
+echo Git:
+git --version
 echo Node:
 node -v
 echo npm:
 npm -v
 echo.
-echo 常用命令:
+echo 甯哥敤鍛戒护:
+echo   git status --short --branch
+echo   git push
 echo   node scripts/check-blocked-domains.js
 echo   node scripts/start-local.js
 echo.
